@@ -1,0 +1,24 @@
+{
+  "name": "08082020-handlebars-burgers",
+  "version": "1.0.0",
+  "description": "Burger Logger using Handlebars for HTML",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/margaretseiche/08082020-Handlebars-Burgers.git"
+  },
+  "author": "Margaret Seiche",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/margaretseiche/08082020-Handlebars-Burgers/issues"
+  },
+  "homepage": "https://github.com/margaretseiche/08082020-Handlebars-Burgers#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
