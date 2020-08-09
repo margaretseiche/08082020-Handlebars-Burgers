@@ -30,7 +30,7 @@ $(function() {
       devoured: $("[name=devoured]:checked").val().trim()
     };
 
-    if(newBurger.burger_name) {  
+    // if(newBurger.burger_name) {  
       // Send the POST request.
       $.ajax("/api/burgers", {
         type: "POST",
@@ -40,8 +40,8 @@ $(function() {
           // Reload the page to get the updated list
           location.reload();
       });
-    } else {
-      alert("Name the burger")
-    } 
+    // } else {
+    //   alert("Name the burger")
+    // } 
   });
 });
