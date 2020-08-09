@@ -1,11 +1,11 @@
 // Make sure we wait to attach our handlers until the DOM is fully loaded.
 $(function() {
-  $(".change-sleep").on("click", function(event) {
+  $(".change-devour").on("click", function(event) {
     var id = $(this).data("id");
-    var nowDevoured = $(this).data("newsleep");
+    var newDevour = $(this).data("newdevour");
 
     var newDevouredState = {
-      devoured: nowDevoured
+      devoured: newDevour
     };
 
     // Send the PUT request.
@@ -14,7 +14,7 @@ $(function() {
       data: newDevouredState
     }).then(
       function() {
-        console.log("changed devoured to", newDevouredState);
+        console.log("changed devoured to", newDevour);
         // Reload the page to get the updated list
         location.reload();
       }
@@ -26,20 +26,22 @@ $(function() {
     event.preventDefault();
 
     var newBurger = {
-      name: $("#ca").val().trim(),
-      sleepy: $("[name=devoured]:checked").val().trim()
+      burger_name: $("#bu").val().trim(),
+      devoured: $("[name=devoured]:checked").val().trim()
     };
 
-    // Send the POST request.
-    $.ajax("/api/burgers", {
-      type: "POST",
-      data: newBurger
-    }).then(
-      function() {
-        console.log("created new burger");
-        // Reload the page to get the updated list
-        location.reload();
-      }
-    );
+    if(newBurger.burger_name) {  
+      // Send the POST request.
+      $.ajax("/api/burgers", {
+        type: "POST",
+        data: newBurger
+      }).then(function() {
+          console.log("created new burger");
+          // Reload the page to get the updated list
+          location.reload();
+      });
+    } else {
+      alert("Name the burger")
+    } 
   });
 });
