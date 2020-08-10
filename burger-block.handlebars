@@ -1,0 +1,9 @@
+<li>
+	{{burger_name}}
+
+	<img {{#if devoured}} src="./assets/plain.JPG" {{else}} src="./assets/crumbs.JPG"{{/if}}>
+
+	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
+		{{#if devoured}}That was delicious!{{else}}Hungry yet?{{/if}}
+	</button>
+</li>
