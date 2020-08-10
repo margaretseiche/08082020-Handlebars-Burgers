@@ -1,20 +1,61 @@
+body {
+  background-color: #faebd7;  
+}
+
+h1 {
+  font-family: Oleo Script Swash Caps;
+  color: #8B0000;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+#availablesection {
+  background-color: navy;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+#devouredsection {
+  background-color: navy;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.burgerheading {
+  color: white;
+}
+
 li {
-    padding: 5px;
+    padding: 10px;
     margin: 5px;
     background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+button {
+  float: right;
+}
+
+#addburgersection {
+  background-color: #8B0000;
+  border-radius: 10px;
+  color: white;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
   
