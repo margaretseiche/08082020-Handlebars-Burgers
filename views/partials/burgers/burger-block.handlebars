@@ -1,7 +1,10 @@
 <li>
-	{{name}}
+	{{burger_name}}
+
+	{{#if devoured}}<img src="https://img.icons8.com/ios/50/000000/plate.png"/>
+		{{else}}<img src="https://img.icons8.com/fluent/48/000000/hamburger.png"/>{{/if}}
 
 	<button class="change-devour" data-id="{{id}}" data-newdevour="{{devoured}}">
-		{{#if devoured}}Delicious!{{else}}Hungry yet?{{/if}}
+		{{#if devoured}}That was delicious!{{else}}Hungry yet?{{/if}}
 	</button>
 </li>

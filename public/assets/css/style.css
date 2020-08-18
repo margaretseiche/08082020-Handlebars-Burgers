@@ -1,20 +1,76 @@
+body {
+  background-color: #faebd7;  
+}
+
+h1 {
+  /* font-family: Oleo Script Swash Caps;  */
+  font-family: 'Kaushan Script', cursive;
+  color: #8B0000;
+}
+
+h1, h2 {
+  text-align: center;
+}
+
+h3 {
+  /* font-family: Oleo Script Swash Caps;   */
+  font-family: 'Kaushan Script', cursive;
+}
+
+#availablesection {
+  background-color: navy;
+  margin: 20px;
+  border-radius: 10px;
+
+}
+
+#devouredsection {
+  background-color: navy;
+  margin: 20px;
+  border-radius: 10px;
+}
+
+.burgerheading {
+  color: white;
+}
+
 li {
-    padding: 5px;
-    margin: 5px;
+    padding: 10px;
+    margin: 20px;
+    margin-right: 55px;
     background: #faebd7;
-  }
-  
-  .label {
-    font-weight: bold;
-  }
-  
-  .create-update-form {
-    padding: 5px;
-    margin: 5px;
-    background: aqua;
-  }
-  
-  .form-group {
-    margin-bottom: 5px;
-  }
-  
+    list-style-type: none;
+    border-radius: 10px;
+}
+
+button {
+  float: center;
+}
+
+#addburgersection {
+  background-color: #8B0000;
+  border-radius: 10px;
+  color: white;
+}
+
+.label {
+  font-weight: bold;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+#create {
+  height: 140px;
+}
+
+footer {
+  text-align: center;
+}

@@ -11,6 +11,8 @@ M - Model
     db folder 
         schema.sql --- structure for database and table
         seeds.sql --- initial data to populate the table
+    models
+        burger.js --- Call functions from orm and pass in arguments from database    
 
 V - View
     views
@@ -26,8 +28,6 @@ C - Controller
         orm.js --- Call the connection and use it to create blank functions
     controllers 
         burgers-controllers.js --- build routes to HTML pages    
-    models
-        burger.js --- Call functions from orm and pass in arguments from database
     node modules --- to make Node work
     package.json --- to make Node work
     package-lock.json --- to make Node work
@@ -48,7 +48,7 @@ It is not finished, but I made significantly more progress this week than I have
 
 I also made a start with deploying to Heroku, but there is an error.  https://calm-caverns-60119.herokuapp.com/
 
-![Local Version](local.JPG)                                  
+![Local Version](local3.JPG)                                  
 
 
 
