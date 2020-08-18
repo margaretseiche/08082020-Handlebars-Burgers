@@ -1,4 +1,17 @@
 # 08082020-Handlebars-Burgers
+
+REVISION
+
+I made some formatting changes (adding the icons, changing some fonts, and putting 'Step 1'... under the 'add burger' section).  
+
+I also reviewed the Heroku setup and set an environmental variable to protect senstive information (like passwords) when deployed.
+
+The Heroku link is https://mburger.herokuapp.com/.
+
+![Local Version](local4.JPG)                                  
+
+ORIGINAL SUBMISSION
+
 This was a very challenging assignment, but the instructions helped a lot to organize the structure.
 
 Another thing that helped me, half-way through the project, was to diagram what each file did and how the files were connected.  I was even able to use that to explain the project outline to a classmate.
@@ -44,11 +57,9 @@ C - Controller
               --- Handlebars --- connect to handlebars files to create HTML display
               --- routes --- connect to burgers-controllers.js for routes
 
-It is not finished, but I made significantly more progress this week than I have over the past month on assignments.
 
-I also made a start with deploying to Heroku, but there is an error.  https://calm-caverns-60119.herokuapp.com/
 
-![Local Version](local3.JPG)                                  
+
 
 
 

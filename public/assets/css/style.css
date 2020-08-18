@@ -3,7 +3,6 @@ body {
 }
 
 h1 {
-  /* font-family: Oleo Script Swash Caps;  */
   font-family: 'Kaushan Script', cursive;
   color: #8B0000;
 }
@@ -13,7 +12,6 @@ h1, h2 {
 }
 
 h3 {
-  /* font-family: Oleo Script Swash Caps;   */
   font-family: 'Kaushan Script', cursive;
 }
 
@@ -21,7 +19,6 @@ h3 {
   background-color: navy;
   margin: 20px;
   border-radius: 10px;
-
 }
 
 #devouredsection {
