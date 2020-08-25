@@ -6,7 +6,7 @@ I made some formatting changes (adding the icons, changing some fonts, and putti
 
 I also reviewed the Heroku setup and set an environmental variable to protect senstive information (like passwords) when deployed.
 
-The Heroku link is https://calm-caverns-60119.herokuapp.com/
+The Heroku link is https://mburger.herokuapp.com/
 
 ![Local Version](local4.JPG)                                  
 
@@ -52,9 +52,10 @@ C - Controller
 *               images to be loaded and linked
 *           js
 *               burgers.js --- controller for the buttons
-*    server.js --- Express (server connection to HTML)
-               --- Handlebars --- connect to handlebars files to create HTML display
-               --- routes --- connect to burgers-controllers.js for routes
+*    server.js 
+*       (within server.js code) --- Express (server connection to HTML)
+*       (within server.js code) --- Handlebars --- connect to handlebars files to create HTML display
+*       (within server.js code) --- routes --- connect to burgers-controllers.js for routes
 
 
 
