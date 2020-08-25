@@ -6,7 +6,7 @@ I made some formatting changes (adding the icons, changing some fonts, and putti
 
 I also reviewed the Heroku setup and set an environmental variable to protect senstive information (like passwords) when deployed.
 
-The Heroku link is https://mburger.herokuapp.com/
+The Heroku link is https://mburgerapp.herokuapp.com/
 
 ![Local Version](local4.JPG)                                  
 
