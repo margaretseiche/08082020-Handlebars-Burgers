@@ -1,4 +1,4 @@
-# 08082020-Handlebars-Burgers
+# Handlebars-Burgers
 
 REVISION
 
@@ -56,10 +56,3 @@ C - Controller
 *       (within server.js code) --- Express (server connection to HTML)
 *       (within server.js code) --- Handlebars --- connect to handlebars files to create HTML display
 *       (within server.js code) --- routes --- connect to burgers-controllers.js for routes
-
-
-
-
-
-
-
