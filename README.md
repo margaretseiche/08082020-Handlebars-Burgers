@@ -1,5 +1,7 @@
 # Handlebars-Burgers
 
+## Description
+
 REVISION
 
 I made some formatting changes (adding the icons, changing some fonts, and putting 'Step 1'... under the 'add burger' section).  
