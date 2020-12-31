@@ -25,30 +25,30 @@ For the MVC format,
 M - Model
 *    db folder 
       -       schema.sql --- structure for database and table
-*       seeds.sql --- initial data to populate the table
+      -       seeds.sql --- initial data to populate the table
 *    models
-*       burger.js --- Call functions from orm and pass in arguments from database    
+      -       burger.js --- Call functions from orm and pass in arguments from database    
 
 V - View
 *    views
-*       layouts
-*            main.handlebars --- basic HTML framework
-*       partials
-*            burger-block.handlebars --- This had the HTML handling for buttons next to burger lists
-*       index.handlebars --- This has the majority of the HTML handling
+      -       layouts
+                        main.handlebars --- basic HTML framework
+      -       partials
+                        burger-block.handlebars --- This had the HTML handling for buttons next to burger lists
+      -       index.handlebars --- This has the majority of the HTML handling
 
 C - Controller
 *    config 
-*       connection.js --- connection to MySQL database
-*       orm.js --- Call the connection and use it to create blank functions
+      -       connection.js --- connection to MySQL database
+      -       orm.js --- Call the connection and use it to create blank functions
 *    controllers 
-*       burgers-controllers.js --- build routes to HTML pages    
+      -       burgers-controllers.js --- build routes to HTML pages    
 *    node modules --- to make Node work
 *    package.json --- to make Node work
 *    package-lock.json --- to make Node work
 *    public
-*       assets
-*           css 
+      -       assets
+                 css 
 *               style.css --- css for display
 *           img 
 *               images to be loaded and linked
