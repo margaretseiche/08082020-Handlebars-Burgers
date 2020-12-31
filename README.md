@@ -1,4 +1,4 @@
-# Handlebars-Burgers
+# Handlebars Burgers
 
 ## Description
 
@@ -24,7 +24,7 @@ For the MVC format,
 
 M - Model
 *    db folder 
-*       schema.sql --- structure for database and table
+      -       schema.sql --- structure for database and table
 *       seeds.sql --- initial data to populate the table
 *    models
 *       burger.js --- Call functions from orm and pass in arguments from database    
