@@ -1,5 +1,8 @@
 # Handlebars Burgers
 
+## Technologies
+Handlebars, MySQL database, Express server, Model-View-Controller structure, Heroku for deployment
+
 ## Description
 
 REVISION
