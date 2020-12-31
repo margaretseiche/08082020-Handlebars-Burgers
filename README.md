@@ -49,12 +49,12 @@ C - Controller
 *    public
       -       assets
                  css 
-*               style.css --- css for display
-*           img 
-*               images to be loaded and linked
-*           js
-*               burgers.js --- controller for the buttons
+                     style.css --- css for display
+                 img 
+                     images to be loaded and linked
+                 js
+                     burgers.js --- controller for the buttons
 *    server.js 
-*       (within server.js code) --- Express (server connection to HTML)
-*       (within server.js code) --- Handlebars --- connect to handlebars files to create HTML display
-*       (within server.js code) --- routes --- connect to burgers-controllers.js for routes
+      -       (within server.js code) --- Express (server connection to HTML)
+      -       (within server.js code) --- Handlebars --- connect to handlebars files to create HTML display
+      -       (within server.js code) --- routes --- connect to burgers-controllers.js for routes
